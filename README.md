@@ -10,13 +10,13 @@ In this assignment, I built a web application that scrapes various websites for 
 Web-Scraping-Challenge
 |__ .gitignore                           # Gitignore file
 |__ README.md                            # Markdown README
-|  |__ images/                         # png screenshots
-|       |__ featured_image.PNG          # png
-|       |__ html_page.PNG               # png
-|       |__ mars_facts.PNG              # png
-|       |__ mars_hemispheres.PNG        # png
-|       |__ mission_to_mars.png         # png
-|       |__ nasa_mars_news.PNG          # png
+|  |__ images/                           # png screenshots
+|       |__ featured_image.PNG           # png
+|       |__ html_page.PNG                # png
+|       |__ mars_facts.PNG               # png
+|       |__ mars_hemispheres.PNG         # png
+|       |__ mission_to_mars.png          # png
+|       |__ nasa_mars_news.PNG           # png
 |__ Mission_to_Mars/                     # Main directory
 |    |__ static/                         # Static directory
 |        |__ css/                        # CSS directory
@@ -61,11 +61,11 @@ HTML
 
 |No|Source|Link|
 |-|-|-|
-|1|mission_to_mars.ipynb|https://alysnow.github.xx.html|
-|2|scrape_mars.py|https://alysnow.github.xx.html|
-|3|app.py|https://alysnow.github.xx.html|
-|4|style.css|https://alysnow.github.xx.html|
-|5|index.html|https://https://alysnow.github.xx.html|
+|1|mission_to_mars.ipynb|https://github.com/alysnow/web-scraping-challenge/blob/main/Missions_to_Mars/mission_to_mars.ipynb|
+|2|scrape_mars.py|https://github.com/alysnow/web-scraping-challenge/blob/main/Missions_to_Mars/scrape_mars.py|
+|3|app.py|https://github.com/alysnow/web-scraping-challenge/blob/main/Missions_to_Mars/app.py|
+|4|style.css|https://github.com/alysnow/web-scraping-challenge/blob/main/Missions_to_Mars/templates/style.css|
+|5|index.html|https://github.com/alysnow/web-scraping-challenge/blob/main/Missions_to_Mars/templates/index.html|
 
 
 ## Part 1 - Scraping
@@ -86,21 +86,21 @@ Initial scraping completed using Jupyter Notebook, BeautifulSoup, Pandas, and Re
 
  * Visited the url for the Featured Space Image page [here](https://spaceimages-mars.com). Scraped the JPL Featured Space Image here. Used splinter to navigate the site to find the image url for the current Featured Mars Image.
 
-![featured_image.PNG](Images/featured_image.PNG)
+![featured_image.PNG](images/featured_image.PNG)
 
 
 ### Mars Facts
 
  * Scraped the Mars Facts webpage [here](https://galaxyfacts-mars.com) and use Pandas to scrape the table containing facts about the planet including Diameter, Mass, etc. Use Pandas to convert the data to a HTML table string.
 
-![mars_facts.PNG](Images/mars_facts.PNG)
+![mars_facts.PNG](images/mars_facts.PNG)
 
 
 ### Mars Hemispheres
 
  * Visit the Astrogeology site [here](https://marshemispheres.com) to obtain high resolution images for each of Mar's hemispheres.
  
-![mars_hemispheres.PNG](Images/mars_hemispheres.PNG)
+![mars_hemispheres.PNG](images/mars_hemispheres.PNG)
 
 
 ## MongoDB and Flask Application
@@ -117,7 +117,7 @@ Use MongoDB with Flask templating to create a new HTML page that displays all of
 
  * Create a template HTML file called index.html that will take the mars data dictionary and display all of the data in the appropriate HTML elements. Use the following as a guide for what the final product should look like, but feel free to create your own design.
 
-![html_page.PNG](Images/html_page.PNG)
+![html_page.PNG](images/html_page.PNG)
 
 
 ## Contributor
